@@ -1,0 +1,16 @@
+main {
+  position: absolute;
+  top: 1000px;
+  width: 2000px;
+}
+
+.search {
+  width: 2000px;
+  height: 400px;
+  background-color: #006eb6;
+  color: white;
+}
+
+.material-symbols-outlined {
+  color: #333;
+}
