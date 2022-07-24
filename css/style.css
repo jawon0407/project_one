@@ -4,12 +4,25 @@
 @import "./index_css/footer.css";
 
 body {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Noto Sans KR", sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main-color-blue: #006eb6;
+  --main-color-white: #fff;
+  --sub-color: #f1f1f1;
+  --point-color: #009867;
+  --font-color: #333;
+  --font-middle-color: #666;
+  --font-small-color: #999;
+  --title-font: 50px;
+  --sub-title-font: 24px;
 }
 
 .hidden {

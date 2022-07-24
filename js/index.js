@@ -1,20 +1,13 @@
-const space = document.querySelector(`header`);
-const letter = document.querySelectorAll(".menu a");
+const header = document.querySelector(`header`);
+const bottomNav = document.querySelectorAll(".bottom_nav_content > li");
 
-space.addEventListener("mouseover", () => {
-  space.style.backgroundColor = "white";
-  letter.forEach(() => {
-    for (var i = 0; i < letter.length; i++) {
-      letter[i].style.color = "black";
-    }
+console.dir(bottomNav);
+
+bottomNav.forEach((li) => {
+  li.addEventListener("mouseover", () => {
+    header.style.height = "560px";
   });
-});
-
-space.addEventListener("mouseleave", () => {
-  space.style.backgroundColor = "";
-  letter.forEach(() => {
-    for (var i = 0; i < letter.length; i++) {
-      letter[i].style.color = "white";
-    }
+  li.addEventListener("mouseleave", () => {
+    header.style.height = "180px";
   });
 });
