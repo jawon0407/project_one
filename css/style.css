@@ -23,6 +23,7 @@ body {
   --font-small-color: #999;
   --title-font: 50px;
   --sub-title-font: 24px;
+  --font-bold: 700;
 }
 
 .hidden {

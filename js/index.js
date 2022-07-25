@@ -1,8 +1,6 @@
 const header = document.querySelector(`header`);
 const bottomNav = document.querySelectorAll(".bottom_nav_content > li");
 
-console.dir(bottomNav);
-
 bottomNav.forEach((li) => {
   li.addEventListener("mouseover", () => {
     header.style.height = "560px";

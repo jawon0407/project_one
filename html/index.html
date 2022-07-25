@@ -8,6 +8,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <title>YONEX코리아</title>
@@ -29,14 +33,14 @@
             <h2 class="hidden">상단 네비게이션</h2>
             <ul>
               <li>
-                <a href="#">
-                  <h3>로그인</h3>
-                </a>
+                <h3>
+                  <a href="#"> 로그인 </a>
+                </h3>
               </li>
               <li>
-                <a href="#">
-                  <h3>회원가입</h3>
-                </a>
+                <h3>
+                  <a href="#"> 회원가입 </a>
+                </h3>
               </li>
             </ul>
           </nav>
@@ -46,9 +50,9 @@
             <h2 class="hidden">하단 네비게이션</h2>
             <ul class="bottom_nav_content">
               <li>
-                <a href="#">
-                  <h3>회사소개</h3>
-                </a>
+                <h3>
+                  <a href="#"> 회사소개 </a>
+                </h3>
                 <ul>
                   <li><a href="#">브랜드소개</a></li>
                   <li><a href="#">연혁</a></li>
@@ -58,9 +62,9 @@
                 </ul>
               </li>
               <li>
-                <a href="#">
-                  <h3>상품소개</h3>
-                </a>
+                <h3>
+                  <a href="#"> 상품소개 </a>
+                </h3>
                 <ul>
                   <li><a href="#">신상품</a></li>
                   <li><a href="#">배드민턴</a></li>
@@ -69,9 +73,9 @@
                 </ul>
               </li>
               <li>
-                <a href="#">
-                  <h3>서비스존</h3>
-                </a>
+                <h3>
+                  <a href="#"> 서비스존 </a>
+                </h3>
                 <ul>
                   <li><a href="#">고객문의</a></li>
                   <li><a href="#">렌탈서비스</a></li>
@@ -80,9 +84,9 @@
                 </ul>
               </li>
               <li>
-                <a href="#">
-                  <h3>요넥스존</h3>
-                </a>
+                <h3>
+                  <a href="#"> 요넥스존 </a>
+                </h3>
                 <ul>
                   <li><a href="#">프로모션</a></li>
                   <li><a href="#">사회공헌</a></li>
@@ -91,18 +95,18 @@
                 </ul>
               </li>
               <li>
-                <a href="#">
-                  <h3>플레이어</h3>
-                </a>
+                <h3>
+                  <a href="#"> 플레이어 </a>
+                </h3>
                 <ul>
                   <li><a href="#">후원선수</a></li>
                   <li><a href="#">국가대표</a></li>
                 </ul>
               </li>
               <li>
-                <a href="#">
-                  <h3>인재채용</h3>
-                </a>
+                <h3>
+                  <a href="#"> 인재채용 </a>
+                </h3>
                 <ul>
                   <li><a href="">채용절차</a></li>
                   <li><a href="">인재상</a></li>
@@ -168,20 +172,23 @@
       <div class="introduce">
         <h3>
           신뢰 &#38; 소통
+          <br />
           <span>reliable &#38; communication</span>
         </h3>
         <div>
           <div>
             <img src="../images/main_page/배경이미지.PNG" alt="셔틀콕사진" />
           </div>
-          <div>
+          <div class="introduce_textbox">
             <span>회사소개</span>
             <h4>Reliable Yonex</h4>
-            <span>
-              1984년부터 배드민턴 대회 가운데 가장 유서 깊은 대회로 칭송 받는
-              전영 오픈 선수권 대회의 단독 스폰서를 시작한 요넥스는 우수한
-              품질의 셔틀콕을 생산 각종 국제 대회에 공인구로 공급하고 있습니다
-            </span>
+            <p>
+              <span>
+                1984년부터 배드민턴 대회 가운데 가장 유서 깊은 대회로 칭송 받는
+                전영 오픈 선수권 대회의 단독 스폰서를 시작한 요넥스는 우수한
+                품질의 셔틀콕을 생산 각종 국제 대회에 공인구로 공급하고 있습니다
+              </span>
+            </p>
             <a href="#">
               <span>
                 자세히보기
@@ -243,18 +250,22 @@
       <div class="promotion">
         <h3>
           프로모션
+          <br />
           <span>promotion</span>
         </h3>
-        <div>
-          <ul>
+        <div class="promotion_content">
+          <ul class="promotion_list">
             <li>
               <a href="#">
                 <img src="../images/main_page/최솔규.jpg" alt="최솔규" />
                 <dl>
-                  <dt></dt>
+                  <dt>yonex 명예포토그래퍼 모집</dt>
                   <dd>
-                    <span></span>
-                    <small></small>
+                    <span>
+                      요넥스와 동행하며 멋진 순간들을 공유할 멋진 포토그래퍼를
+                      모집합니다.
+                    </span>
+                    <small>2022.02.11</small>
                   </dd>
                 </dl>
               </a>
@@ -268,9 +279,9 @@
                 <dl>
                   <dt>너에게 가는 속도 493km</dt>
                   <dd>
-                    <span
-                      >요넥스가 너가속과 제작지원 및 협찬으로 함께합니다</span
-                    >
+                    <span>
+                      요넥스가 너가속과 제작지원 및 협찬으로 함께합니다
+                    </span>
                     <small>2022.04.29</small>
                   </dd>
                 </dl>
@@ -280,19 +291,24 @@
               <a href="">
                 <img src="../images/main_page/공희용.jpg" alt="" />
                 <dl>
-                  <dt></dt>
+                  <dt>요넥스 피오레 5기 합격자 발표</dt>
                   <dd>
-                    <span></span>
-                    <small></small>
+                    <span>
+                      피오레 5기 멤버로 함께 하게 된 8명의 신규 멤버를
+                      발표합니다.
+                    </span>
+                    <small>2022.01.28</small>
                   </dd>
                 </dl>
               </a>
             </li>
           </ul>
         </div>
-        <a href="#">
-          <span class="material-symbols-outlined"> add </span>
-        </a>
+        <div class="view_more">
+          <a href="#">
+            <i class="fa-solid fa-circle-plus"></i>
+          </a>
+        </div>
       </div>
       <div class="match">
         <h3>
@@ -452,6 +468,10 @@
     <a href="#top">
       <span class="material-symbols-outlined"> arrow_upward </span>
     </a>
+    <script
+      src="https://kit.fontawesome.com/bff332bdcf.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="../js/index.js"></script>
   </body>
 </html>

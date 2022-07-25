@@ -111,6 +111,8 @@ h1 {
   transition: all 0.2s;
 }
 
+/*index_gallery*/
+
 .index_gallery {
   position: absolute;
   top: 0;
@@ -136,6 +138,7 @@ h1 {
 .index_gallery span {
   color: var(--main-color-white);
 }
+
 .index_gallery span:first-child {
   font-size: 86px;
   font-weight: 200;
