@@ -13,6 +13,10 @@ body {
   scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   --main-color-blue: #006eb6;
   --main-color-white: #fff;
@@ -24,6 +28,8 @@ body {
   --title-font: 50px;
   --sub-title-font: 24px;
   --font-bold: 700;
+  --font-light: 200;
+  --font-thin: 100;
 }
 
 .hidden {
@@ -46,4 +52,15 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.view_more i {
+  font-size: 40px;
+  position: absolute;
+  color: var(--main-color-blue);
+  transition: all 0.5s;
+}
+
+.view_more i:hover {
+  transform: rotate(360deg);
 }
