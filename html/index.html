@@ -10,6 +10,8 @@
     />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>YONEX코리아</title>
   </head>
   <body>
@@ -180,7 +182,11 @@
         </h3>
         <div>
           <div>
-            <img src="../images/main_page/배경이미지.PNG" alt="셔틀콕사진" />
+            <img
+              src="../images/main_page/배경이미지.PNG"
+              alt="셔틀콕사진"
+              data-aos="fade-right"
+            />
           </div>
           <div class="introduce_textbox">
             <span>회사소개</span>
@@ -410,7 +416,7 @@
           <span>best game of the year</span>
         </h3>
         <div class="match_content">
-          <div class="official">
+          <div class="official" data-aos="fade-right">
             <div>
               <iframe
                 width="450"
@@ -436,7 +442,7 @@
               </div>
             </div>
           </div>
-          <div class="entertainment">
+          <div class="entertainment" data-aos="fade-left">
             <div>
               <div class="entertainment_text">
                 <h4>
@@ -476,8 +482,8 @@
           <h3>news zone</h3>
           <div>
             <ul class="news_lists">
-              <a href="#">
-                <li>
+              <li data-aos="zoom-out" data-aos-duration="500">
+                <a href="#">
                   <p>
                     <span
                       >2022 윔블던 테니스 대회
@@ -487,10 +493,10 @@
                   </p>
                   <span>&#91;엘레나 리바키나&#93;</span>
                   <small>2022.07.13</small>
-                </li>
-              </a>
-              <a href="#">
-                <li>
+                </a>
+              </li>
+              <li data-aos="zoom-out" data-aos-duration="700">
+                <a href="#">
                   <p>
                     <span>
                       제29회
@@ -501,10 +507,10 @@
                     </span>
                   </p>
                   <small>2022.05.25</small>
-                </li>
-              </a>
-              <a href="#">
-                <li>
+                </a>
+              </li>
+              <li data-aos="zoom-out" data-aos-duration="900">
+                <a href="#">
                   <p>
                     <span>
                       2022 <br />
@@ -514,10 +520,10 @@
                     </span>
                   </p>
                   <small>2022.05.26</small>
-                </li>
-              </a>
-              <a href="#">
-                <li>
+                </a>
+              </li>
+              <li data-aos="zoom-out" data-aos-duration="1100">
+                <a href="#">
                   <p>
                     <span>
                       2022 <br />
@@ -527,8 +533,8 @@
                     </span>
                   </p>
                   <small>2022.05.25</small>
-                </li>
-              </a>
+                </a>
+              </li>
             </ul>
           </div>
           <!--IR사용-->
@@ -542,15 +548,23 @@
     </article>
     <footer id="footer">
       <div class="footer_wrapper">
-        <div>
+        <div class="footer_top">
           <ul>
-            <li>a/s관련규정</li>
-            <li>이용약관</li>
-            <li>개인정보 수집 및 이용 동의</li>
-            <li>select region</li>
+            <li>
+              <a href="#"> a/s관련규정 </a>
+            </li>
+            <li>
+              <a href="#"> 이용약관 </a>
+            </li>
+            <li>
+              <a href="#"> 개인정보 수집 및 이용 동의 </a>
+            </li>
+            <li>
+              <a href="#"> select region </a>
+            </li>
           </ul>
         </div>
-        <div>
+        <div class="footer_bottom">
           <div>
             <img src="../images/main_page/회색로고.jpg" alt="요넥스로고" />
             <div>
@@ -606,10 +620,17 @@
     <a href="#top">
       <span class="material-symbols-outlined"> arrow_upward </span>
     </a>
+    <script src="../js/index.js"></script>
     <script
       src="https://kit.fontawesome.com/bff332bdcf.js"
       crossorigin="anonymous"
     ></script>
-    <script src="../js/index.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        offset: 200,
+        easing: "Ease out Sine",
+      });
+    </script>
   </body>
 </html>

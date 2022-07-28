@@ -388,7 +388,7 @@ input[type="search"] {
   justify-content: space-between;
 }
 
-.news_lists li {
+.news_lists a {
   color: var(--font-color);
   background-color: var(--main-color-white);
   border-radius: 60px;
@@ -399,17 +399,14 @@ input[type="search"] {
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
-}
-
-.news_lists li p {
-  width: 80%;
-}
-
-.news_lists a {
   transition: all 0.2s ease-in;
   line-height: 20px;
   font-weight: 500;
   border-radius: 60px;
+}
+
+.news_lists li p {
+  width: 80%;
 }
 
 .news_lists a:hover {
