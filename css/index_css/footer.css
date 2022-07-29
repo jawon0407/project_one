@@ -68,10 +68,28 @@ footer {
   height: 80px;
 }
 
-.social_network_logo img {
-  width: 25px;
-  height: 25px;
+.social_network_logo i {
+  font-size: 40px;
 }
+
+.fa-instagram {
+  background: linear-gradient(to right top, orange, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-facebook {
+  color: #45568e;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.fa-twitter {
+  color: #2aa9e0;
+}
+
 .footer_bottom div:last-child {
   display: flex;
   justify-content: flex-end;
