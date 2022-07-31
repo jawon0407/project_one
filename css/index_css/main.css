@@ -421,7 +421,26 @@ input[type="search"] {
   font-size: 14px;
   font-weight: var(--font-thin);
 }
+
 .news .view_more i {
   top: 107px;
   right: 0;
+}
+
+.go_top{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position: fixed;
+  right: 50px;
+  bottom: 40px;
+  width: 40px;
+  height: 40px;
+  background-color:#006eb6;
+  border-radius:50%;
+}
+
+.go_top i{
+  font-size: 20px;
+  color:white;
 }
